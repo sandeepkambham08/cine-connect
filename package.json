@@ -7,7 +7,7 @@
 		"build": "vite build",
 		"dev:android": "vite build && cap sync && cap run android",
 		"dev:ios": "vite build && cap sync && cap run ios",
-		"preview": "vite preview --host 0.0.0.0a",
+		"preview": "vite preview --host 0.0.0.0",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
