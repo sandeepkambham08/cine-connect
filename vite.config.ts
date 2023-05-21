@@ -1,6 +1,11 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import type { UserConfig } from 'vite';
 
-export default defineConfig({
-	plugins: [sveltekit()]
-});
+const config: UserConfig = {
+  plugins: [sveltekit()],
+  build: {
+    target: 'esnext'
+  }
+};
+
+export default config;
