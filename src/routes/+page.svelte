@@ -1,4 +1,4 @@
-<div class="flex flex-col bg-contrast text-on-contrast pt-16 h-screen">
+<div class="flex flex-col bg-contrast pt-16 h-screen">
   <div
     class="flex flex-col h-fit m-4 bg-base text-on-base rounded-lg shadow-lg p-6"
   >
