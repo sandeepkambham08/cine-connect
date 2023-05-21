@@ -2,4 +2,18 @@
   import '../app.postcss';
 </script>
 
-<slot />
+<div class="safe-area-height">
+  <div class="safe-area-top-padding">
+    <slot />
+  </div>
+</div>
+
+<style>
+  .safe-area-top-padding {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-area-height {
+    height: max(3rem + env(safe-area-inset-top), 5rem);
+  }
+</style>
