@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { contentSummary } from '$lib/types/movies'
+	import type { contentSummary } from '$lib/types/content'
 
 	export let item: contentSummary
-	let poster =
+	$: poster =
 		item.Poster === 'N/A'
 			? `https://fakeimg.pl/600x400/363636/909090?text=${item.Type}`
 			: item.Poster

@@ -2,7 +2,7 @@
 	import '../app.postcss'
 </script>
 
-<div class="safe-area-height bg-base text-on-base min-h-screen">
+<div class="safe-area-height min-h-screen bg-base text-on-base">
 	<div class="safe-area-top-padding">
 		<slot />
 	</div>
