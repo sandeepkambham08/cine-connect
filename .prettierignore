@@ -1,0 +1,39 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+storybook-static
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.idea
+*.svg
+
+# Incompatible files
+chart
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Cordova plugins for Capacitor
+android/capacitor-cordova-android-plugins
+
+# Copied web assets
+android/app/src/main/assets/public
+
+# Generated Config files
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/src/main/res/xml/config.xml
+
+# Generated Build files
+android/app/build
+
+# Generated ios files
+ios/App/App/public
+ios/DerivedData

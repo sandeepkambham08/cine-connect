@@ -1,0 +1,23 @@
+arrowParens: avoid
+importOrder:
+  - '<THIRD_PARTY_MODULES>'
+  - '^\$'
+  - '^[./]'
+importOrderCaseInsensitive: true
+importOrderGroupNamespaceSpecifiers: true
+importOrderSortSpecifiers: true
+overrides:
+  - files: '*.svelte'
+    options:
+      parser: svelte
+pluginSearchDirs:
+  - '.'
+plugins:
+  - '@trivago/prettier-plugin-sort-imports'
+  - prettier-plugin-svelte
+  - prettier-plugin-tailwindcss
+printWidth: 100
+semi: false
+singleQuote: true
+trailingComma: all
+useTabs: true
