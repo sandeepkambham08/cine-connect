@@ -28,6 +28,9 @@ module.exports = {
       },
       fontSize: {
         '2xs': '.5em'
+      },
+      screens: {
+        xs: '420px'
       }
     }
   }

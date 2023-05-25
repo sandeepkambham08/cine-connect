@@ -2,7 +2,7 @@
   import '../app.postcss';
 </script>
 
-<div class="safe-area-height">
+<div class="safe-area-height container">
   <div class="safe-area-top-padding">
     <slot />
   </div>
